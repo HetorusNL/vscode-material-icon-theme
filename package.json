@@ -1,7 +1,7 @@
 {
-  "name": "material-icon-theme",
-  "displayName": "Material Icon Theme",
-  "description": "Material Design Icons for Visual Studio Code",
+  "name": "material-icon-theme-tapl",
+  "displayName": "Material Icon Theme - TAPL",
+  "description": "Material Design Icons for Visual Studio Code - TAPL",
   "version": "5.34.0",
   "license": "MIT",
   "scripts": {
@@ -29,11 +29,11 @@
     "postpublish": "git checkout package.json && git checkout README.md",
     "prepare": "husky"
   },
-  "publisher": "PKief",
+  "publisher": "tapl-lang",
   "author": {
-    "name": "Material Extensions",
-    "email": "material-icons-extensions@googlegroups.com",
-    "url": "https://github.com/material-extensions"
+    "email": "tim@tapl-lang.com",
+    "name": "Tim Klein Nijenhuis",
+    "url": "https://tapl-lang.com"
   },
   "funding": "https://github.com/sponsors/material-extensions",
   "sponsor": {
